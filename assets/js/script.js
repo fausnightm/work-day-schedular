@@ -42,6 +42,10 @@ $(document).ready(function() {
     
         })
     }
+
+    // get item from local storage if any
+
+    $('#hour8 .description').val(localStorage.getItem('hour8'));
     timeTracker();
 })
 
